@@ -1,0 +1,8 @@
+package thantrieu.tu1;
+//Các toán tử gán trong Java
+public class B14AssignmentOperators {
+    public static void main(String[] args) {
+        int a = 10, b = 20, c = 2;
+        System.out.println("a = " + a + "\nb = " + b + "\nc = " + c + "\nc = a + b = " + (a+b) + " - Toán tử gán đơn giản. Gán giá trị toán hạng bên phải cho toán hạng trái" + "\nc = " + c + "\na = " + a + "\nc += a = " + (c+=a) + " - Thêm giá trị toán hạng phải tới toán hạng trái và gán giá trị đó cho toán hạng trái. c = c + a" + "\nc = " + c + "\na = " + a + "\nc -= a = " + (c -=a ) + " - Trừ đi giá trị toán hạng phải từ toán hạng trái và gán giá trị này cho toán hạng trái. c = c - a" + "\nc = " + c + "\na = " + a + "\nc *= a = " + (c*=a) + " - Nhân giá trị toán hạng phải với toán hạng trái và gán giá trị này cho toán hạng trái. c = c * a" + "\nc = " + c + "\na = " + a + "\nc /= a = " + (c/=a) + " - Chia toán hạng trái cho toán hạng phải và gán giá trị này cho toán hạng trái. c = c / a" + "\nc = " + c + "\na = " + a + "\nc %= a = " + (c%=a) + " - Lấy phần dư của phép chia toán hạng trái cho toán hạng phải và gán cho toán hạng trái. c = c % a" + "\nc = " + c + "\nc <<= 2 = " + (c<<=2) + " - Dịch trái toán hạng trái sang số vị trí là giá trị toán hạng phải. c = c << 2" + "\nc = " + c + "\nc >>= 2 = " + (c>>=2) + " - Dịch phải toán hạng trái sang số vị trí là giá trị toán hạng phải. c = c >> 2" + "\nc = " + c + "\nc &= 2 = " + (c&=2) + " - Phép AND bit. c = c & 2" + "\nc = " + c + "\nc ^= 2 = " + (c^=2) + " - Phép OR loại trừ bit. c = c ^ c" + "\nc = " + c + "\nc |= 2 = " + (c|=2) + " - Phép OR bit. c = c | 2" + "\nc = " + c);
+    }
+}
